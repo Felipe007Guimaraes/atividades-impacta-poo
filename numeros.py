@@ -33,12 +33,12 @@ def lista_primos(n):
 
 def conta_primos(s):
 	dicionario = {}
-	for item in s:
-		if eh_primo(item) == True:
-			if item in dicionario:
-				dicionario[item] += 1
+	for i in s:
+		if eh_primo(i) == True:
+			if i in dicionario:
+				dicionario[i] += 1
 			else:
-				dicionario[item] = 1
+				dicionario[i] = 1
 	return dicionario
 	"""Função que conta a quantidade de primos em uma sequência
 
@@ -77,7 +77,11 @@ def conta_primos(s):
 
 
 def eh_armstrong(n):
-	return True if sum([int(num) ** len(str(n)) for num in str(n)]) == n else False
+	if sum([int(i) ** len(str(n)) for i in str(n)]) == n:
+		return True 
+	else:
+		return False
+
 	'''armstrong = []
 	for i in str(n):
 		int(i)**len(str(n))
