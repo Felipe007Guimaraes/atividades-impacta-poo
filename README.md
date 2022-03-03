@@ -1,6 +1,42 @@
 # atividades-impacta-poo
 Neste repositório, contém exercícios proposto pela faculdade impacta afim de desenvolver habilidades em programação orientada a objetos na linguagem python.
 
+def eh_primo(n):
+Função que verifica se um número é primo
+
+	Recebe um número natural n, com n >= 2, e retorna verdadeiro se
+	n é um número primo e falso caso contrário.
+
+	Exemplos
+	--------
+	Um número é dito primo se possuir apenas 2 divisores, isto é,
+	não possuir nenhum divisor além do 1 e do próprio n.
+	29 é primo:
+		divisores de 29: 1, 29
+	30 NÃO é primo:
+		divisores de 30: 1, 2, 3, 5, 6, 10, 15, 30
+		
+def lista_primos(n):
+Função que retorna uma lista de primos até n
+
+	Recebe um número natural n, com n >= 2, e retorna uma
+	lista com todos o números primos estritamente menores
+	que n, em ordem crescente.
+
+	Parâmetros
+	----------
+	n : int
+		Número natural que define o limite superior da lista.
+
+	Retorno
+	-------
+	list
+		itens : int
+		descrição : Lista com todos os números primos menores
+			que n, em ordem crescente.
+	"""
+	pass
+	
 Função conta_primos(s):
 Função que conta a quantidade de primos em uma sequência
 
