@@ -185,4 +185,3 @@ Função que conta a quantidade de primos em uma sequência
 		itens : int
 		descrição : Uma lista contendo todos os números perfeitos
 			menores que n em ordem crescente.
-	
