@@ -93,4 +93,4 @@ def lista_perfeitos(n):
 			listando.append(i)
 	return listando
 
-	pass
+	pass 
